@@ -1,10 +1,10 @@
 import Head from 'next/head'
+import Container from '@/components/Container';
 
 export default function Home() {
   return (
-    <div className='border-2 border-rose-500 '>
-      test
-      <div>des</div>
-    </div>
+    <Container>
+      <div>testscscscsss</div>
+    </Container>
   );
 }
