@@ -1,4 +1,6 @@
 {
+  "name": "knowledge_sharing",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,11 +15,13 @@
     "next-seo": "^4.28.1",
     "prism-react-renderer": "^1.2.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-spring": "^9.3.2"
   },
   "devDependencies": {
     "@types/node": "^16.11.12",
     "@types/react": "^17.0.37",
+    "@types/webpack-env": "^1.16.3",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
     "tailwindcss": "^3.0.1",
