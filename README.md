@@ -3,3 +3,5 @@
 
 live code temaplte
 > https://github.com/agneym/playground
+
+Stop at getPostData fn
