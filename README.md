@@ -6,9 +6,10 @@ live code temaplte
 
 Stop at getPostData fn
 
-#personal account
-Host github.com-wilkersoh
-        HostName github.com
-        User git
-        IdentityFile ~/.ssh/id_rsa
+# Build at
+1. NextJS
+2. GraphQL - API
+3. GraphCMS - Content Management
+4. TailwindCss
+5. SWR
 
