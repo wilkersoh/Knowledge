@@ -1,11 +1,16 @@
 import React from "react";
 
-const Container: React.FC = ({children}) => {
-  return (
-    <div className='md:container lg:container md:mx-auto border-2 border-rose-500 '>
-      {children}
-    </div>
-  );
+interface ContainerProps {
+	className?: string;
+	children: React.ReactNode;
+}
+
+const Container: React.FC<ContainerProps> = ({ className = "", children }) => {
+	return (
+		<div>
+			<div className={`container md:mx-auto ${className}`}>{children}</div>
+		</div>
+	);
 };
 
 export default Container;
